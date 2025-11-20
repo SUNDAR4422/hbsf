@@ -1,0 +1,66 @@
+/* Action Buttons */
+.actions-cell {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn-edit,
+.btn-reset,
+.btn-delete {
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: all 0.3s ease;
+  border: 1px solid;
+  white-space: nowrap;
+}
+
+.btn-edit {
+  background: #e3f2fd;
+  color: #1565c0;
+  border-color: #64b5f6;
+}
+
+.btn-edit:hover {
+  background: #1565c0;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(21, 101, 192, 0.2);
+}
+
+.btn-reset {
+  background: #fff3e0;
+  color: #e65100;
+  border-color: #ffb74d;
+}
+
+.btn-reset:hover {
+  background: #e65100;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(230, 81, 0, 0.2);
+}
+
+.btn-delete {
+  background: #ffebee;
+  color: #c62828;
+  border-color: #ef5350;
+}
+
+.btn-delete:hover {
+  background: #c62828;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(198, 40, 40, 0.2);
+}
+
+/* Table styling adjustments */
+.table th:last-child,
+.table td:last-child {
+  text-align: center;
+  width: 200px;
+}
